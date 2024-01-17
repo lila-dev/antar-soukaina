@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>cours html</title>
+    <meta charset="uft-8">
+    <link rel="stylesheet" href="html.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Learn with Assia</a>
+        <nav class="navigation">
+            <a href="#home"> <a href="../index.html">Home</a></a>
+            <a href="#login"><a href="../login/index.html"> Login </a></a>
+        </nav>
+    </header>
+
+
+
+    <div>
+        <section class="container" id="container">
+            <div class="card">
+                <h1>Cours d’HTML</h1>
+                <h2>Qu'est ce que le <span>HTML</span> ? </h2>
+
+
+
+                <p>Le <strong>HTML</strong> (HyperText Markup Language) est un format de présentation de données
+                    permettant
+                    de créer des <strong>pages</strong> <strong>web</strong> pouvant être lues dans des
+                    <strong>navigateurs</strong>.
+                </p>
+            </div>
+            <div class="card">
+                <p>C'est un langage de description de données, et non un langage de programmation. Il est figé c.à.d
+                    qu'une fois le document chargé dans le navigateur, il ne répond à&nbsp; aucune action de
+                    l'utilisateur sur le contenu de la page.&nbsp;</p>
+            </div>
+            <div class="card">
+                <h2>Balises HTML</h2>
+                <p><strong>Une balise HTML</strong> est un élément que l'on va ajouter au texte à&nbsp; afficher pour
+                    dire
+                    au navigateur de quelle manière l'afficher. Elle n'est pas affichée telle quelle dans le navigateur,
+                    elle est interprétée par celui-ci. <strong>syntaxe:</strong></p>
+                <p><strong>&lt;BALISE&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> <em>(Balise standard )</em><br />
+                    Balises simples - balises doubles</p>
+                <p><em>Deux types de balises</em> : <strong>balises simples</strong></p>
+                <p>Balises dites "vides": ne contiennent aucune autre balise HTML Ces balises n'ont pas besoin d'être
+                    fermées.</p>
+                <p><strong><em>exemple</em></strong></p>
+                <p>&lt;img src="adresse_de_l’image"&gt; <em>(insertion d’une image)</em></p>
+                <p><strong>balises doubles</strong></p>
+                <p>Deux balises ouvrantes/fermantes, entre lesquelles sont situées d'autres balises ou du texte.</p>
+                <p>La balise fermante:&nbsp; identique à&nbsp; la balise ouvrante. contient un "/" pour indiquer la
+                    fermeture.</p>
+                <p><strong><em>exemple</em></strong>:</p>
+                <p><strong>&lt;p&gt;</strong> ici du texte ou tout autre balise
+                    <strong>&lt;/</strong><strong>p&gt;</strong>
+                    <em>(nv paragraphe)</em>
+                </p>
+                <p>Structure d’un document HTML</p>
+                <p>Document HTML de base</p>
+                <p>la balise &lt;html&gt;. Elle encadre l'ensemble des autres balises.</p>
+                <p>&lt;html&gt;</p>
+                <p>&lt;head&gt;</p>
+                <p>&lt;head&gt;: va contenir tout l'en-tête de la page (Informations diverses: auteur, titre, version,
+                    scripts, variables ... )</p>
+                <p>&lt;title&gt; ... &lt;/title&gt;&nbsp; &nbsp;</p>
+                <p>&nbsp;L’entête du document -Head</p>
+                <p><strong>La balise</strong> <strong>&lt;head&gt;</strong> <strong>contient de nombreux renseignements
+                        sur la page, sur l'auteur ... Le titre de la page</strong> entre les balises &lt;title&gt; et
+                    &lt;/title&gt;</p>
+                <p>Très important :</p>
+                <p>Apparaît dans la barre de titre du navigateur.</p>
+                <p>Son contenu sera affiché en titre des résultats de la recherche dans les moteurs de recherche&nbsp;
+                </p>
+                <p>---&gt; mettre le maximum de mots-clefs importants.</p>
+                <p>&lt;title&gt;cours HTML - &nbsp;T 1<sup>ère</sup>&lt;/title&gt;</p>
+                <p>Le corps du document -Body</p>
+                <p><strong>Les paragraphes de texte</strong></p>
+                <p><strong>La mise en forme de texte</strong></p>
+                <p><strong>Les niveaux de titres</strong></p>
+                <p><strong>Les tableaux</strong>&nbsp; &nbsp;</p>
+                <p>Body - Les paragraphes de texte<br /> Body - La mise en forme de texte</p>
+                <p>Balise&nbsp; <strong>&lt;b&gt; ... &lt;/b&gt;: texte en gras</strong></p>
+                <p>&lt;b&gt;Ce texte s'affichera en gras&lt;/b&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;i&gt; ... &lt;/i&gt;: texte en italique</strong></p>
+                <p>&lt;i&gt;Ce texte s'affichera en italique&lt;/i&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;u&gt; ... &lt;/u&gt;: texte souligné</strong></p>
+                <p>&lt;u&gt;Ce texte sera souligné&lt;/u&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;s&gt;&nbsp; ... &lt;/s&gt;: texte barré</strong></p>
+                <p>&lt;s&gt;Ce texte sera barré&lt;/s&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;sup&gt; ... &lt;/sup&gt;: texte en exposant</strong></p>
+                <p>&lt;sup&gt;Ce texte sera en exposant&lt;/sup&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;sub&gt; ... &lt;/sub&gt;: texte en indice</strong></p>
+                <p>&lt;sub&gt;Ce texte sera en indice&lt;/sub&gt;</p>
+                <p>&nbsp;Body - La mise en forme de texte</p>
+                <p>Body - Modifier la couleur du texte</p>
+                <p>Balise&nbsp; <strong>&lt;font&gt; ... &lt;/font&gt;&nbsp; - attribut &lt;color&gt;</strong>
+                    <strong>exemple</strong>:&nbsp;
+                </p>
+                <p>&lt;font color="#ff0000"&gt;texte en rouge&lt;/font&gt;</p>
+                <p><strong>Les couleurs peuvent être écrites de deux manières :</strong></p>
+                <p>- En hexadécimal de type RVB et précédées d'un dièse (#) <strong><em>exemples</em></strong> :&nbsp;
+                    &nbsp;</p>
+                <p>Body - Modifier la couleur du texte&nbsp; &nbsp;</p>
+                <p>Body - Modifier la police ou la taille du texte</p>
+                <p><strong>Balise&nbsp; &lt;font&gt; ... &lt;/font&gt;&nbsp; - attribut &lt;face&gt;</strong>
+                    <strong>exemple</strong>:&nbsp;
+                </p>
+                <p>&lt;font face="Arial"&gt;texte en Arial&lt;/font&gt;</p>
+                <p>&lt;font face="Arial,times"&gt;Ce texte sera en Arial sinon en times&lt;/font&gt;</p>
+                <p>Balise&nbsp; <strong>&lt;font&gt; ... &lt;/font&gt;&nbsp; - attribut &lt;size&gt;</strong>
+                    <strong>exemple</strong>:
+                </p>
+                <p>Body - Modifier la police ou la taille du texte&nbsp;</p>
+                <p>Body - Les niveaux de titre</p>
+                <p>Balise&nbsp; <strong>&lt;hn&gt;</strong> oà¹ <strong>n</strong> représente le niveau</p>
+                <p>Il existe différents niveaux de titres ( 1 à&nbsp; 6 ) (<em>tous importants</em>)</p>
+                <p>Attribut de la balise</p>
+                <p><strong>&lt;Hx align=center&gt;...&lt;/Hx&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Titre
+                        centré</strong></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&lt;Hx
+                        align=left&gt;...&lt;/Hx&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Titre
+                        aligné à&nbsp; gauche</strong>&nbsp; &nbsp;</p>
+                <p>Rappels</p>
+                <p><strong>HTML</strong> est un format de présentation de données pour créer des <strong>pages
+                        web</strong>
+                    pouvant être lues dans des <strong>navigateurs</strong>.</p>
+                <p>C'est un langage à&nbsp; balises.</p>
+                <p><strong>Une balise HTML</strong> est un élément que l'on va ajouter au texte à&nbsp; afficher pour
+                    dire au navigateur de quelle manière l'afficher.</p>
+                <p><strong><em>syntaxe:</em></strong></p>
+                <p><strong>&lt;BALISE&gt; (simple ou double)</strong>&nbsp; &nbsp;</p>
+                <p>Rappels</p>
+                <p>Attributs balise&nbsp; &lt;body&gt; &lt;/body&gt;:</p>
+                <p>-&nbsp;&nbsp; BACKGROUND pour insérer une image comme fond</p>
+                <p><strong>&lt;BODY BACKGROUND</strong>="nom_de_fichier.extension"<strong>&gt;</strong></p>
+                <p>-&nbsp;&nbsp; BGCOLOR : couleur de l'arrière plan</p>
+                <p>-&nbsp;&nbsp; TEXT :&nbsp; couleur du texte, par défaut elle est noir&nbsp; &nbsp;</p>
+                <p>&nbsp;Rappels</p>
+                <p>Balise&nbsp; &lt;p&gt;&nbsp;&nbsp; &lt;/p&gt;: segmentation du texte en paragraphes</p>
+                <p>Balise &lt;div&gt; ... &lt;/div&gt; : division de la page en blocs</p>
+                <p>Balise &lt;br&gt; : saut de ligne ou retour à&nbsp; la ligne</p>
+                <p>Balise&nbsp; &lt;b&gt; ... &lt;/b&gt;: texte en gras</p>
+                <p>Balise&nbsp; &lt;i&gt; ... &lt;/i&gt;: texte en italique</p>
+                <p>Balise&nbsp; &lt;u&gt; ... &lt;/u&gt;: texte souligné</p>
+                <p>Balise&nbsp; &lt;s&gt;&nbsp; ... &lt;/s&gt;: texte barré</p>
+                <p>Balise&nbsp; &lt;sup&gt; ... &lt;/sup&gt;: texte en exposant</p>
+                <p>Balise&nbsp; &lt;sub&gt; ... &lt;/sub&gt;: texte en indice Balise&nbsp; &lt;font&gt; ...
+                    &lt;/font&gt; :
+                </p>
+                <p>-&nbsp; attributs : &lt;face&gt;, &lt;size&gt;, &lt;color&gt; Balise&nbsp; &lt;h&gt; ... &lt;/h&gt; :
+                    niveaux de titre</p>
+                <p>-&nbsp; attribut : align ( center, left, right )<br /> Le corps du document -Body</p>
+                <p>Body - Les Tableaux</p>
+                <p><strong>Structure de base:</strong></p>
+                <p><strong>&lt;TABLE&gt; &lt;/TABLE&gt;</strong></p>
+                <p>indique au navigateur le début et la fin d'une table Pour décrire le tableau, on utilise ensuite les
+                    balises :</p>
+                <p><strong>&lt;TR&gt; &lt;/TR&gt;</strong> (<strong><em>T</em></strong><em>able
+                        <strong>R</strong>ow</em>):
+                    Définit une ligne du tableau.</p>
+                <p>Pour ajouter une ligne au tableau.</p>
+                <p><strong>&lt;TD&gt; &lt;/TD&gt;</strong> (<strong><em>T</em></strong><em>able
+                        <strong>D</strong>ata</em>):
+                    Définit une série de cellules de données (qui pourront contenir du texte, des images, une table...).
+                </p>
+                <p><strong>&lt;TH&gt; &lt;/TH&gt;</strong> (<strong><em>T</em></strong><em>able
+                        <strong>H</strong>ead</em>)<strong>:</strong> Définit une cellule contenant un titre (intitulé)
+                    de
+                    colonne ou de ligne. Le résultat à&nbsp; l'affichage est un texte mis en évidence (gras par
+                    exemple).
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; <strong>&lt;caption&gt; &lt;/caption&gt;</strong> :&nbsp;&nbsp;&nbsp;
+                    Définition
+                    du titre du tableau&nbsp;</p>
+                <p>&nbsp;Body - Les Tableaux</p>
+                <p><strong>ATTRIBUTS</strong></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>WIDTH="x"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                    largeur du tableau (nombre ou % par rapport à&nbsp; la
+                </p>
+                <p>largeur de la fenêtre)</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>HEIGHT="x"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                    hauteur du tableau (nombre en pixels ou %)
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>BORDER="x"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                    taille de la bordure ou épaisseur de l’ombrage
+                </p>
+                <p>(1 par défaut)</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>BGCOLOR=couleur&nbsp;&nbsp;&nbsp;</strong> couleur de fond des
+                    cellules</p>
+                <p><strong>BACKGROUND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> pour utiliser une
+                    image
+                    comme fond pour la table</p>
+                <p><strong>CELLSPACING="x"&nbsp;&nbsp;&nbsp;</strong> largeur des bordures = espace entre deux cellules
+                    du
+                    tableau&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p><strong>CELLPADDING="x"&nbsp;&nbsp;&nbsp;</strong> espace libre (pixels) entre le texte et le bord de
+                    la
+                    cellule qui le contient</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>ALIGN&nbsp;&nbsp;</strong> alignement: left, right, center</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>COLLSPAN="n"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> fusion de colonnes sur
+                    une
+                    même ligne ( td et th )
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <strong>ROWSPAN="n"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> fusion de colonnes sur
+                    une
+                    même ligne ( td et th 34)
+                </p>
+                <p>&nbsp;Body - Les Tableaux</p>
+                <p>&lt;HTML&gt;</p>
+                <p>&lt;HEAD&gt;&nbsp; &lt;TITLE&gt;exemple1 tableau&lt;/TITLE&gt;&nbsp; &lt;/HEAD&gt;</p>
+                <p>&lt;BODY BGCOLOR="#00FF00"&nbsp;&nbsp; &gt;</p>
+                <p>&lt;CENTER&gt; &lt;table border=5 BORDERCOLOR=red CELLSPACING=10</p>
+                <p>cellpadding=10 width=80% heigth="80" &gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>&lt;tr bgcolor=yellow&gt;</p>
+                <p>&lt;td&gt;1-1&lt;/td&gt;&nbsp; &lt;td&gt; 1-2 &lt;/td&gt;&nbsp; &lt;td&gt; 1-3 &lt;/td&gt;&nbsp;
+                    &lt;td&gt; 1-4 &lt;/td&gt;</p>
+                <p>&lt;/tr&gt;</p>
+                <p>&lt;tr bgcolor=blue&gt;</p>
+                <p>&lt;td&gt;2-1&lt;/td&gt;&nbsp; &lt;td&gt; 2-2 &lt;/td&gt;&nbsp; &lt;td&gt; 2-3 &lt;/td&gt;&nbsp;
+                    &lt;td&gt; 2-4 &lt;/td&gt; &lt;/tr&gt;</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&lt;HTML&gt;</p>
+                <p>&lt;HEAD&gt;&nbsp; &lt;TITLE&gt;exemple tableau&lt;/TITLE&gt;&nbsp; &lt;/HEAD&gt; &lt;BODY
+                    BGCOLOR="#00FFFF"&nbsp;&nbsp; &gt;</p>
+                <p>&lt;CENTER&gt; &lt;table border=10 CELLSPACING=25 cellpadding=8 width=80% heigth="80"
+                    BORDERCOLOR="#000000"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>&lt;tr bgcolor=yellow&gt;</p>
+                <p>&lt;th colspan=2 rowspan=2&gt; &lt;font size="6"&gt; 1-1 &lt;/th&gt;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>&lt;th&gt;&nbsp; &lt;font size="4"&gt;1-3 &lt;/th&gt;&nbsp;&nbsp; &lt;th&gt; 1-4 &lt;/th&gt;</p>
+                <p>&lt;/tr&gt;</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>&lt;HTML&gt;</p>
+                                <p>&lt;HEAD&gt;&nbsp; &lt;TITLE&gt;9eme tableau&lt;/TITLE&gt;&nbsp; &lt;/HEAD&gt;</p>
+                                <p>&lt;BODY &gt;</p>
+                                <p>&lt;CENTER&gt; &lt;table border=10 CELLSPACING=20 cellpadding=10 width=80%
+                                    heigth="80"
+                                    BORDERCOLOR="#000000"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>&lt;tr bgcolor=blue&gt;&nbsp; &lt;th&gt;1-1&lt;/th&gt;&nbsp; &lt;th
+                                    colspan=3&gt;&lt;font
+                                    size="6"&gt; 1-2 &lt;/th&gt;<br /> &lt;td rowspan=4&gt;1-5 &lt;/td&gt;</p>
+                                <p>&lt;/tr&gt;</p>
+                                <p>&lt;tr bgcolor=yellow&gt;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&lt;td&gt; 2-1 &lt;/td&gt;&nbsp;&nbsp; &lt;td&gt; 2-2 &lt;/td&gt;&nbsp;&nbsp; &lt;td&gt; 2-3
+                    &lt;/td&gt;&nbsp; &lt;td rowspan=4&gt;2-4&lt;/td&gt; &lt;/tr&gt;</p>
+                <p>&lt;/HTML&gt;</p>
+                <p>Le corps du document -Body</p>
+                <p><strong>Les paragraphes de texte</strong></p>
+                <p><strong>La mise en forme de texte</strong></p>
+                <p><strong>Les niveaux de titres</strong></p>
+                <p><strong>Les tableaux</strong></p>
+                <p>Body - Insertion d’images</p>
+                <p>Pour insérer une image à&nbsp; un document HTML</p>
+                <p>Balise simple&nbsp; <strong>&lt;img&gt;</strong></p>
+                <p>Pour insérer une image locale</p>
+                <p>&lt;img src="chemin de l’image" alt=" texte alternatif "&gt;</p>
+                <p>&nbsp;Attributs de la balise &lt;img&gt;</p>
+                <p>-&nbsp;&nbsp; src : donne le chemin de l'image.</p>
+                <p>-&nbsp;&nbsp; alt : affiche un texte alternatif à&nbsp; la place de l'image si celle-ci ne peut pas
+                    être
+                    chargée</p>
+                <p>-&nbsp;&nbsp; align : left, right, middle, bottom, top</p>
+                <p>-&nbsp;&nbsp; width=n ou n% height=m : pour redimensionner une image</p>
+                <p>-&nbsp;&nbsp; border=n : pour tracer un cadre autour de l'image avec un trait de n pixels de large
+                </p>
+                <p>o&nbsp;&nbsp; - vspace=n hspace=m : espace vertical entre l’image et le texte en pixels (vspace),
+                    espace
+                    horizontal image-texte (hspace).&nbsp;</p>
+
+                <p>&nbsp;Body - les liens HTML</p>
+                <p>HTML donne la possibilité de créer des liens vers d'autres documents :</p>
+                <p>-&nbsp;&nbsp; documents HTML</p>
+                <p>-&nbsp;&nbsp; des images</p>
+                <p>-&nbsp;&nbsp; du son</p>
+                <p>-&nbsp;&nbsp; des films</p>
+                <p>Liens vers un document complet distant :</p>
+                <p><strong><em>Syntaxe</em></strong> :</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>&lt;A HREF="URL"&gt; ancre &lt;/A&gt;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><strong><em>exemple</em></strong> :</p>
+                <p>pour accéder à&nbsp; la page du CEI de l’ ENS&nbsp;</p>
+                <p></p>
+                <p>&nbsp; &nbsp;Body - liens hypertextes</p>
+                <p>Liens&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exemples</p>
+                <p>Lien interne départ (même page)</p>
+                <p>&lt;a href="#top"&gt;...&lt;/a&gt;</p>
+                <p>Lien interne arrivée (même page)</p>
+                <p>&lt;a name="top"&gt;...&lt;/a&gt;</p>
+                <p>Lien interne (page différente)</p>
+                <p>&nbsp;Body - Insertion&nbsp; du son</p>
+                <p><strong><em>Remarques:</em></strong>&nbsp;</p>
+                <p>Body - Insertion&nbsp; du son</p>
+                <p><strong>Intégrer un fichier son dans le fond de la page</strong> <strong>:</strong></p>
+                <p><strong>&lt;embed src=" nomFichier.extension " hidden &gt;</strong>
+                    <strong><em>exemple:</em></strong>
+                </p>
+                <p>&lt;p&gt;&lt;embed src="sprng_01.mid" autostart="true" loop="false" hidden="true"&gt;</p>
+                <p>Musique de fond en cours de diffusion.&lt;/p&gt;</p>
+                <p><br /> Les formulaires</p>
+                <p><strong>Méthode des formulaires</strong></p>
+                <p>Les formulaires HTML permettent de retourner des informations&nbsp; saisies par un utilisateur vers
+                    une
+                    application serveur Les formulaires utilisent des&nbsp; balises particulières:</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;form action= " "&nbsp; method= " "
+                    &gt;&nbsp;&nbsp;&nbsp;&nbsp;
+                    ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/form&gt;</p>
+                <p>&lt;input type = "text" name ="nom" value="chaîne"&gt;&nbsp;&nbsp; <em>zone de saisie</em>
+                    &lt;input&nbsp; type="submit "
+                    value="Envoyer"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <em>bouton
+                        d’envoi</em>
+                </p>
+                <p>&lt;input&nbsp; type="reset"&nbsp; name="efface"&nbsp; value="Effacer"&gt;&nbsp; <em>bton
+                        effacer</em>
+                </p>
+                <p>&lt;input type="checkbox" name="case1"&nbsp; value="valeur_case"&gt;</p>
+                <p>&lt;input&nbsp; type="radio"&nbsp; name="radio1"&nbsp; value="valeur_radio"&gt;</p>
+                <p>&lt;select name ="select" size="1"&gt;</p>
+                <p>&lt;option value="R"&gt;choix1&lt;/option&gt;&nbsp; <em>Liste de sélection</em></p>
+                <p>&lt;option&nbsp; value="D"&gt; choix2&nbsp; &lt;/option&gt; &lt;/select&gt;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &lt;textarea
+                    name="" cols="" rows=""&gt;&lt;/textarea&gt;&nbsp;&nbsp;&nbsp; <em>zone de texte</em></p>
+                <p>Les formulaires</p>
+                <p>Un formulaire commence et finit par: FORM</p>
+                <p>&lt;FORM&nbsp;&nbsp; ACTION&nbsp;&nbsp; METHOD&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/FORM&gt;
+                </p>
+                <p><em>â–º Les attributs METHOD&nbsp; et&nbsp; ACTION&nbsp; sont obligatoires</em></p>
+                <p>â™¦ ACTION = " adresse du script qui va recevoir les</p>
+                <p>données saisies dans le formulaire "&nbsp;</p>
+                <p>Les formulaires</p>
+                <p>&lt;FORM&nbsp;&nbsp; ACTION&nbsp;&nbsp; METHOD&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/FORM&gt;
+                </p>
+                <p>- GET : passe les informations d'un formulaire par l’intermédiaire des URL. Elles sont placées,
+                    directement à&nbsp; la suite de l'adresse URL de la page appelée.
+                    <strong><em>exemple:</em></strong>&nbsp;
+                </p>
+                <p>Un formulaire commence et finit par: FORM</p>
+                <p>&lt;FORM&nbsp;&nbsp; ACTION&nbsp;&nbsp; METHOD&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/FORM&gt;
+                </p>
+                <p><em>â–º Les attributs METHOD&nbsp; et&nbsp; ACTION&nbsp; sont obligatoires</em></p>
+                <p>â™¦ ACTION = " adresse pour l'envoi "</p>
+                <p>â™¦ METHOD = "forme d’envoi"&nbsp; ( GET ou POST )</p>
+                <p>-&nbsp;&nbsp; POST: valeur qui correspond à&nbsp; un envoi de données stockées dans le corps de la
+                    requête. Méthode la plus utilisée pour les formulaires</p>
+                <p>Le nombre d'informations important</p>
+                <p>-&nbsp;&nbsp; GET : méthode généralement assez peu adaptée, car limitée à&nbsp; 255 caractères. Les
+                    informations seront envoyées dans l'adresse de la page (http://...).&nbsp;</p>
+                <p>&nbsp;Les formulaires</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p>-&nbsp;&nbsp; Insertion de n'importe quel élément HTML de base:</p>
+                <p>textes, tableaux, liens, ...</p>
+                <p>-&nbsp;&nbsp; Insertion d’éléments interactifs.</p>
+                <p>&nbsp;Les formulaires</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p>Les éléments interactifs sont :</p>
+                <p>â™¦ <strong><em>la balise INPUT</em></strong> : un ensemble de boutons et de champs de saisie à&nbsp;
+                    une
+                    ligne&nbsp;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>La balise INPUT :</strong></p>
+                <p>-&nbsp;&nbsp; balise principale des formulaires</p>
+                <p>-&nbsp;&nbsp; permet de créer un bon nombre d'éléments "interactifs"&nbsp;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : champ de saisie</strong></p>
+                <p>&lt;INPUT&nbsp; TYPE&nbsp; NAME&nbsp; VALUE SIZE&gt;&nbsp;&nbsp; &lt;/INPUT&gt;</p>
+                <p>avec</p>
+                <p>TYPE = TEXT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pour faire saisir une ligne de texte</p>
+                <p>= PASSWORD&nbsp;&nbsp;&nbsp;&nbsp; les caractères saisis apparaissent sous forme d’ '*'</p>
+                <p>NAME = "un nom"&nbsp; qui identifie le champ texte</p>
+                <p>VALUE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    valeur par défaut de la zone de texte SIZE&nbsp;&nbsp;largeur de la zone de texte</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    maxlength&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nombre
+                    maximal de caractères&nbsp; &nbsp;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : checkbox (cases à&nbsp; cocher)</strong> <strong><em>exemple</em></strong>
+                    <strong>:</strong>
+                </p>
+                <p>c: &lt;input name="C" type="checkbox" value="Câ€œ checked&gt; c++: &lt;input name="Cpp"
+                    type="checkbox"
+                    value="C++"&gt;</p>
+                <p>Pascal: &lt;input name="Pascal" type="checkbox" value="Pascal"&gt;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : Boutons</strong></p>
+                <p>&lt; INPUT&nbsp; NAME&nbsp; TYPE&nbsp; VALUE&nbsp; CHECKED &gt;&nbsp; ... &lt;/INPUT&gt; avec&nbsp;
+                    TYPE
+                    =&nbsp;&nbsp; RADIO pour les boutons multiples</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    CHECKBOX&nbsp;&nbsp;&nbsp;&nbsp; pour les cases à&nbsp; cocher</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SUBMIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pour envoyer le formulaire
+                    une
+                </p>
+                <p>fois rempli</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    RESET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pour effacer le
+                    contenu du formulaire</p>
+                <p>&nbsp;NAME =&nbsp; "un nom"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; qui identifie le
+                    bouton
+                </p>
+                <p>VALUE=&nbsp; "valeur"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; donnée au
+                    bouton
+                    lorsqu'il est selectionné</p>
+                <p>&nbsp;CHECKEDsignale un bouton par défaut (RADIO) ou une case cochée avant saisie&nbsp;&nbsp;</p>
+                <p>(CHECKBOX)</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : Bouton-Radio (Zones d’option)</strong></p>
+                <p>Pour un choix et un seul parmi plusieurs possibilités <strong><em>exemple</em></strong>
+                    <strong>:</strong>
+                </p>
+                <p>&lt;INPUT&nbsp; TYPE=RADIO&nbsp; NAME=SECT1&nbsp; VALUE="UNIV" CHECKED&gt;&nbsp;&nbsp;</p>
+                <p>Universitaire</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : submit et reset</strong></p>
+                <p>- reset&nbsp; :&nbsp;&nbsp; <em>bouton de remise à&nbsp; zéro</em> rétabli l'ensemble des éléments du
+                    formulaire à&nbsp; leurs valeurs par défaut&nbsp;</p>
+                <p>&nbsp;<strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>INPUT : submit et reset</strong> <strong><em>exemple</em></strong> <strong>:</strong></p>
+                <p>&lt;input type="submit" value="envoyer"&gt;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>TEXTAREA</strong></p>
+                <p>La balise <em>TEXTAREA</em> permet de définir une zone de saisie plus vaste par rapport à&nbsp; la
+                    simple
+                    ligne de saisie que propose la balise <em>INPUT</em>&nbsp;</p>
+                <p>&nbsp; &nbsp;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>TEXTAREA</strong></p>
+                <p><strong><em>exemple</em></strong></p>
+                <p>&lt;textarea name="adresseâ€œ type="text"&gt;&lt;/textarea&gt;&nbsp;</p>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>TEXTAREA</strong></p>
+                <p>Attributs rows et cols:</p>
+                <p>pour modifier la taille de textarea</p>
+                <p>&lt;textarea name="ameliorer" rows=" " cols=" "&gt; &lt;/textarea&gt;&nbsp;</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><strong>A l'intérieur de la balise FORM...</strong></p>
+                <p><strong>SELECT :</strong></p>
+                <p>permet de créer une liste déroulante d'éléments (précisés par des balises <em>OPTION</em> à&nbsp;
+                    l'intérieur de celle-ci).</p>
+                <p>Les attributs de cette balise sont :</p>
+                <p>-&nbsp;&nbsp;&nbsp;&nbsp; name: représente le nom associé au champ, c'est le nom qui permettra
+                    d'identifier le champ dans la paire nom/valeur</p>
+                <p>-&nbsp;&nbsp;&nbsp;&nbsp; disabled: permet de créer une liste désactivée, c'est-à&nbsp;-dire affichée
+                    en
+                    grisée</p>
+                <p>-&nbsp;&nbsp;&nbsp;&nbsp; size: représente le nombre de lignes dans la liste (cette valeur peut être
+                    plus
+                    grande que le nombre d'éléments effectifs dans la liste) - multiple: marque la possibilité pour
+                    l'utilisateur de choisir plusieurs champs dans la liste<br /> Les frames</p>
+                <p><strong>Définition et structure de base</strong></p>
+                <p>Les documents multi-cadres (frames) donnent la possibilité de diviser la fenêtre du navigateur en
+                    plusieurs panneaux ou cadres indépendants, contenant chacun un document HTML différent.</p>
+                <p>Les cadres sont délimités par la balise :</p>
+                <p><strong>&lt;FRAMESET&gt; &lt;/FRAMESET&gt;</strong> qui va remplacer&nbsp;&nbsp;
+                    <strong>&lt;BODY&gt;</strong>
+                </p>
+                <p>Pour définir ensuite les cadres, on utilise les balises <strong>FRAME</strong> disposant chacune d’un
+                    paramètre <strong>SRC</strong> pour indiquer l'adresse (URL) du document HTML à&nbsp; afficher dans
+                    ce
+                    cadre.</p>
+                <p><strong>Paramètres de la balise &lt; FRAMESET &gt;</strong></p>
+                <p><strong>COLS=" x , a% , * ..."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> Divise la fenêtre
+                    en
+                    cadres verticaux.</p>
+                <p>Le nombre de valeurs entre parenthèses séparées par des virgules (ici 3) donne le nombre de cadres et
+                    leurs largeurs ...</p>
+                <p><strong>ROWS=" x , a% , * ..."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> Divise la fenêtre en cadres
+                    horizontaux.</p>
+                <p>Le nombre de valeurs entre parenthèses séparées par des virgules (ici 3) donne le nombre de cadres et
+                    leurs hauteurs ...</p>
+                <p>x = largeur/hauteur en nombre de pixels ;&nbsp;&nbsp;&nbsp;&nbsp; a%= largeur/hauteur de la cellule
+                    en
+                    pourcentage de l'écran ; * = largeur/hauteur restante&nbsp;</p>
+                <p><strong>Paramètres de la balise &lt; FRAMESET &gt;</strong></p>
+                <p><strong>SRC</strong>="URL"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    indique le fichier à&nbsp; placer dans le frame</p>
+                <p><strong>NAME</strong>="nom_cadre"&nbsp;&nbsp;&nbsp; permet de nommer le cadre afin qu'elle puisse
+                    devenir
+                    la cible d'un lien (on utilisera alors l'attribut <strong>target</strong> de la balise&nbsp;&nbsp;
+                    <strong>&lt;A &gt;</strong> pour y accéder.
+                </p>
+                <p><strong>SCROLLING</strong>="yes/no/auto"&nbsp;&nbsp;&nbsp; affichage de la barre de défilement</p>
+                <p>(auto : valeur par défaut)</p>
+                <p><strong>MARGINWIDTH</strong>=" "&nbsp;&nbsp;&nbsp;&nbsp; largeur des marges verticales</p>
+                <p><strong>MARGINHEIGHT</strong>=" "&nbsp;&nbsp; hauteur des marges horizontales</p>
+                <p><strong>NORESIZE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                    évite la modification de la taille par</p>
+                <p>l'utilisateur</p>
+                <p><strong>FRAMEBORDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> indique si le cadre doit
+                    être séparé d’autres</p>
+                <p>cadres (1 pour oui -valeur par défaut-, 0 pour non)&nbsp;</p>
+                </p>
+                <div style="padding-top:35px">
+                    <p>Cours d’HTML</p>
+                    <p>Qu’est ce que le HTML ?</p>
+                    <p>Le <strong>HTML</strong> (HyperText Markup Language) est un format de présentation de données
+                        permettant de créer des <strong>pages</strong> <strong>web</strong> pouvant être lues dans des
+                        <strong>navigateurs</strong>.
+                    </p>
+                    <p>C'est un langage de description de données, et non un langage de programmation. Il est figé c.à
+                        .d.
+                        qu'une fois le document chargé dans le navigateur, il ne répond à aucune action de l'utilisateur
+                        sur
+                        le contenu de la page. </p>
+                    <p>Balises HTML</p>
+                    <p><strong>Une balise HTML</strong> est un élément que l'on va ajouter au texte à afficher pour dire
+                        au
+                        navigateur de quelle manière l'afficher. Elle n'est pas affichée telle quelle dans le
+                        navigateur,
+                        elle est interprétée par celui-ci. <strong>syntaxe:</strong></p>
+                    <p><strong>&lt;BALISE&gt; </strong> <em>(Balise standard )</em><br> Balises simples - balises
+                        doubles
+                    </p>
+                    <p><em>Deux types de balises</em> : <strong>balises simples</strong></p>
+                    <p>Balises dites "vides": ne contiennent aucune autre balise HTML Ces balises n'ont pas besoin
+                        d'être
+                        fermées.</p>
+                    <p><strong><em>exemple</em></strong></p>
+                    <p>&lt;img src="adresse_de_l’image"&gt; <em>(insertion d’une image)</em></p>
+                    <p><strong>balises doubles</strong></p>
+                    <p>Deux balises ouvrantes/fermantes, entre lesquelles sont situées d'autres balises ou du texte.</p>
+                    <p>La balise fermante: identique à la balise ouvrante. contient un "/" pour indiquer la fermeture.
+                    </p>
+                    <p><strong><em>exemple</em></strong>:</p>
+                    <p><strong>&lt;p&gt;</strong> ici du texte ou tout autre balise
+                        <strong>&lt;/</strong><strong>p&gt;</strong> <em>(nv paragraphe)</em>
+                    </p>
+                    <p>Structure d’un document HTML</p>
+                    <p>Document HTML de base</p>
+                    <p>la balise &lt;html&gt;. Elle encadre l'ensemble des autres balises.</p>
+                    <p>&lt;html&gt;</p>
+                    <p>&lt;head&gt;</p>
+                    <p>&lt;head&gt;: va contenir tout l'en-tête de la page (Informations diverses: auteur, titre,
+                        version,
+                        scripts, variables ... )</p>
+                    <p>&lt;title&gt; ... &lt;/title&gt; </p>
+                    <p> L’entête du document -Head</p>
+                    <p><strong>La balise</strong> <strong>&lt;head&gt;</strong> <strong>contient de nombreux
+                            renseignements
+                            sur la page, sur l'auteur ... Le titre de la page</strong> entre les balises &lt;title&gt;
+                        et
+                        &lt;/title&gt;</p>
+                    <p>Très important :</p>
+                    <p>Apparaît dans la barre de titre du navigateur.</p>
+                    <p>Son contenu sera affiché en titre des résultats de la recherche dans les moteurs de recherche
+                    </p>
+                    <p>---&gt; mettre le maximum de mots-clefs importants.</p>
+                    <p>&lt;title&gt;cours HTML - DUT 1<sup>ère</sup> année 2010&lt;/title&gt;</p>
+                    <p>Le corps du document -Body</p>
+                    <p><strong>Les paragraphes de texte</strong></p>
+                    <p><strong>La mise en forme de texte</strong></p>
+                    <p><strong>Les niveaux de titres</strong></p>
+                    <p><strong>Les tableaux</strong> </p>
+                    <p>Body - Les paragraphes de texte<br> Body - La mise en forme de texte</p>
+                    <p>Balise <strong>&lt;b&gt; ... &lt;/b&gt;: texte en gras</strong></p>
+                    <p>&lt;b&gt;Ce texte s'affichera en gras&lt;/b&gt;</p>
+                    <p>Balise <strong>&lt;i&gt; ... &lt;/i&gt;: texte en italique</strong></p>
+                    <p>&lt;i&gt;Ce texte s'affichera en italique&lt;/i&gt;</p>
+                    <p>Balise <strong>&lt;u&gt; ... &lt;/u&gt;: texte souligné</strong></p>
+                    <p>&lt;u&gt;Ce texte sera souligné&lt;/u&gt;</p>
+                    <p>Balise <strong>&lt;s&gt; ... &lt;/s&gt;: texte barré</strong></p>
+                    <p>&lt;s&gt;Ce texte sera barré&lt;/s&gt;</p>
+                    <p>Balise <strong>&lt;sup&gt; ... &lt;/sup&gt;: texte en exposant</strong></p>
+                    <p>&lt;sup&gt;Ce texte sera en exposant&lt;/sup&gt;</p>
+                    <p>Balise <strong>&lt;sub&gt; ... &lt;/sub&gt;: texte en indice</strong></p>
+                    <p>&lt;sub&gt;Ce texte sera en indice&lt;/sub&gt;</p>
+                    <p> Body - La mise en forme de texte</p>
+                    <p>Body - Modifier la couleur du texte</p>
+                    <p>Balise <strong>&lt;font&gt; ... &lt;/font&gt; - attribut &lt;color&gt;</strong>
+                        <strong>exemple</strong>:
+                    </p>
+                    <p>&lt;font color="#ff0000"&gt;texte en rouge&lt;/font&gt;</p>
+                    <p><strong>Les couleurs peuvent être écrites de deux manières :</strong></p>
+                    <p>- En hexadécimal de type RVB et précédées d'un dièse (#) <strong><em>exemples</em></strong> :
+                    </p>
+                    <p>Body - Modifier la couleur du texte </p>
+                    <p>Body - Modifier la police ou la taille du texte</p>
+                    <p><strong>Balise &lt;font&gt; ... &lt;/font&gt; - attribut &lt;face&gt;</strong>
+                        <strong>exemple</strong>:
+                    </p>
+                    <p>&lt;font face="Arial"&gt;texte en Arial&lt;/font&gt;</p>
+                    <p>&lt;font face="Arial,times"&gt;Ce texte sera en Arial sinon en times&lt;/font&gt;</p>
+                    <p>Balise <strong>&lt;font&gt; ... &lt;/font&gt; - attribut &lt;size&gt;</strong>
+                        <strong>exemple</strong>:
+                    </p>
+                    <p>Body - Modifier la police ou la taille du texte </p>
+                    <p>Body - Les niveaux de titre</p>
+                    <p>Balise <strong>&lt;hn&gt;</strong> oà¹ <strong>n</strong> représente le niveau</p>
+                    <p>Il existe différents niveaux de titres ( 1 à 6 ) (<em>tous importants</em>)</p>
+                    <p>Attribut de la balise</p>
+                    <p><strong>&lt;Hx align=center&gt;...&lt;/Hx&gt; Titre centré</strong></p>
+
+                    <p> <strong>&lt;Hx align=left&gt;...&lt;/Hx&gt; Titre aligné à gauche</strong> </p>
+                    <p>Rappels</p>
+                    <p><strong>HTML</strong> est un format de présentation de données pour créer des <strong>pages
+                            web</strong> pouvant être lues dans des <strong>navigateurs</strong>.</p>
+                    <p>C'est un langage à balises.</p>
+                    <p><strong>Une balise HTML</strong> est un élément que l'on va ajouter au texte à afficher pour dire
+                        au
+                        navigateur de quelle manière l'afficher.</p>
+                    <p><strong><em>syntaxe:</em></strong></p>
+                    <p><strong>&lt;BALISE&gt; (simple ou double)</strong> </p>
+                    <p>Rappels</p>
+                    <p>Attributs balise &lt;body&gt; &lt;/body&gt;:</p>
+                    <p>- BACKGROUND pour insérer une image comme fond</p>
+                    <p><strong>&lt;BODY BACKGROUND</strong>="nom_de_fichier.extension"<strong>&gt;</strong></p>
+                    <p>- BGCOLOR : couleur de l'arrière plan</p>
+                    <p>- TEXT : couleur du texte, par défaut elle est noir </p>
+                    <p> Rappels</p>
+                    <p>Balise &lt;p&gt; &lt;/p&gt;: segmentation du texte en paragraphes</p>
+                    <p>Balise &lt;div&gt; ... &lt;/div&gt; : division de la page en blocs</p>
+                    <p>Balise &lt;br&gt; : saut de ligne ou retour à la ligne</p>
+                    <p>Balise &lt;b&gt; ... &lt;/b&gt;: texte en gras</p>
+                    <p>Balise &lt;i&gt; ... &lt;/i&gt;: texte en italique</p>
+                    <p>Balise &lt;u&gt; ... &lt;/u&gt;: texte souligné</p>
+                    <p>Balise &lt;s&gt; ... &lt;/s&gt;: texte barré</p>
+                    <p>Balise &lt;sup&gt; ... &lt;/sup&gt;: texte en exposant</p>
+                    <p>Balise &lt;sub&gt; ... &lt;/sub&gt;: texte en indice Balise &lt;font&gt; ... &lt;/font&gt; :</p>
+                    <p>- attributs : &lt;face&gt;, &lt;size&gt;, &lt;color&gt; Balise &lt;h&gt; ... &lt;/h&gt; : niveaux
+                        de
+                        titre</p>
+                    <p>- attribut : align ( center, left, right )<br> Le corps du document -Body</p>
+                    <p>Body - Les Tableaux</p>
+                    <p><strong>Structure de base:</strong></p>
+                    <p><strong>&lt;TABLE&gt; &lt;/TABLE&gt;</strong></p>
+                    <p>indique au navigateur le début et la fin d'une table Pour décrire le tableau, on utilise ensuite
+                        les
+                        balises :</p>
+                    <p><strong>&lt;TR&gt; &lt;/TR&gt;</strong> (<strong><em>T</em></strong><em>able
+                            <strong>R</strong>ow</em>): Définit une ligne du tableau.</p>
+                    <p>Pour ajouter une ligne au tableau.</p>
+                    <p><strong>&lt;TD&gt; &lt;/TD&gt;</strong> (<strong><em>T</em></strong><em>able
+                            <strong>D</strong>ata</em>): Définit une série de cellules de données (qui pourront contenir
+                        du
+                        texte, des images, une table...).</p>
+
+                    <p><strong>&lt;TH&gt; &lt;/TH&gt;</strong> (<strong><em>T</em></strong><em>able
+                            <strong>H</strong>ead</em>)<strong>:</strong> Définit une cellule contenant un titre
+                        (intitulé)
+                        de colonne ou de ligne. Le résultat à l'affichage est un texte mis en évidence (gras par
+                        exemple).
+                    </p>
+                    <p>Le corps du document -Body</p>
+                    <p><strong>Les paragraphes de texte</strong></p>
+                    <p><strong>La mise en forme de texte</strong></p>
+                    <p><strong>Les niveaux de titres</strong></p>
+                    <p><strong>Les tableaux</strong></p>
+                    <p>Body - Insertion d’images</p>
+                    <p>Pour insérer une image à un document HTML</p>
+                    <p>Balise simple <strong>&lt;img&gt;</strong></p>
+                    <p>Pour insérer une image locale</p>
+                    <p>&lt;img src="chemin de l’image" alt=" texte alternatif "&gt;</p>
+                    <p> Attributs de la balise &lt;img&gt;</p>
+                    <p>- src : donne le chemin de l'image.</p>
+                    <p>- alt : affiche un texte alternatif à la place de l'image si celle-ci ne peut pas être chargée
+                    </p>
+                    <p>- align : left, right, middle, bottom, top</p>
+                    <p>- width=n ou n% height=m : pour redimensionner une image</p>
+                    <p>- border=n : pour tracer un cadre autour de l'image avec un trait de n pixels de large</p>
+                    <p>o - vspace=n hspace=m : espace vertical entre l’image et le texte en pixels (vspace), espace
+                        horizontal image-texte (hspace). </p>
+                    <p> Body - les liens HTML</p>
+                    <p>HTML donne la possibilité de créer des liens vers d'autres documents :</p>
+                    <p>- documents HTML</p>
+                    <p>- des images</p>
+                    <p>- du son</p>
+                    <p>- des films</p>
+                    <p>Liens vers un document complet distant :</p>
+                    <p><strong><em>Syntaxe</em></strong> :</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>&lt;A HREF="URL"&gt; ancre &lt;/A&gt;</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong><em>exemple</em></strong> :</p>
+                    <p>pour accéder à la page du CEI de l’ ENS </p>
+                    <p></p>
+                    <p> Body - liens hypertextes</p>
+                    <p>Liens Exemples</p>
+                    <p>Lien interne départ (même page)</p>
+                    <p>&lt;a href="#top"&gt;...&lt;/a&gt;</p>
+                    <p>Lien interne arrivée (même page)</p>
+                    <p>&lt;a name="top"&gt;...&lt;/a&gt;</p>
+                    <p> Body - Insertion du son</p>
+                    <p><strong>lien hypertexte vers un fichier media</strong> <strong>: </strong></p>
+                    <p><strong>&lt;a href="nomFichier.extension"&gt;......&lt;/a&gt;</strong></p>
+                    <p>exemples d’extension : .mid, .wmv, .wav, .mp3, .ram ...<br> Body - Insertion du son</p>
+                    <p> <strong>Intégrer un fichier son dans la page</strong> <strong>: on ajoute</strong></p>
+                    <p><strong>&lt;embed src=" nomFichier.extension "&gt;</strong> <strong><em>exemple:</em></strong>
+                    </p>
+                    <p>&lt;p&gt;&lt;embed src="sprng_01.mid" width="150" height="40" autostart="false"
+                        loop="false"&gt;&lt;/p&gt;</p>
+                    <p><strong><em>Remarques:</em></strong> </p>
+                    <p>Body - Insertion du son</p>
+                    <p><strong>Intégrer un fichier son dans le fond de la page</strong> <strong>:</strong></p>
+                    <p><strong>&lt;embed src=" nomFichier.extension " hidden &gt;</strong>
+                        <strong><em>exemple:</em></strong>
+                    </p>
+                    <p>&lt;p&gt;&lt;embed src="sprng_01.mid" autostart="true" loop="false" hidden="true"&gt;</p>
+                    <p>Musique de fond en cours de diffusion.&lt;/p&gt;</p>
+                    <p>Body - Insertion de vidéo</p>
+                    <p><strong>lien hypertexte vers un fichier video</strong> <strong>: </strong></p>
+                    <p><strong>&lt;a href=" nomFichier.extension "&gt;......&lt;/a&gt;</strong>
+                        <strong><em>exemple</em></strong><em>:</em>
+                    </p>
+                    <p>&lt;a href="aucland45.MPEG"&gt;Un petit film au format mpeg&lt;/a&gt; <strong>Intégrer un fichier
+                            video dans la page:</strong></p>
+                    <p><strong>&lt;img dynsrc="aucland45.MPEG&gt;</strong> <strong><em>exemple</em></strong><em>:</em>
+                    </p>
+                    <p><strong>&lt;img dynsrc="nomClip.MPEG" start="fileopen"&gt;</strong></p>
+                    <p><strong>Un petit film au format mpeg &lt;/a&gt;</strong></p>
+                    <p>fileopen= la vidéo est affichée à l’ouverture . <br>
+                        mouseover= la vidéo est affichée au passage de la souris </p>
+                    <p><br> Les formulaires</p>
+                    <p><strong>Méthode des formulaires</strong></p>
+                    <p>Les formulaires HTML permettent de retourner des informations saisies par un utilisateur vers une
+                        application serveur Les formulaires utilisent des balises particulières:</p>
+                    <p> &lt;form action= " " method= " " &gt; ... &lt;/form&gt;</p>
+                    <p>&lt;input type = "text" name ="nom" value="chaîne"&gt; <em>zone de saisie</em> &lt;input
+                        type="submit
+                        " value="Envoyer"&gt; <em>bouton d’envoi</em></p>
+                    <p>&lt;input type="reset" name="efface" value="Effacer"&gt; <em>bton effacer</em></p>
+                    <p>&lt;input type="checkbox" name="case1" value="valeur_case"&gt;</p>
+                    <p>&lt;input type="radio" name="radio1" value="valeur_radio"&gt;</p>
+                    <p>&lt;select name ="select" size="1"&gt;</p>
+                    <p>&lt;option value="D"&gt; choix2 &lt;/option&gt; &lt;/select&gt;</p>
+                    <p> &lt;textarea name="" cols="" rows=""&gt;&lt;/textarea&gt; <em>zone de texte</em></p>
+                    <p>Les formulaires</p>
+                    <p>Un formulaire commence et finit par: FORM</p>
+                    <p>&lt;FORM ACTION METHOD&gt; &lt;/FORM&gt;</p>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
